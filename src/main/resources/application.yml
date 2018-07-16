@@ -1,0 +1,12 @@
+server:
+    port: 8900
+
+spring:
+  application:
+    name: smart_ruler
+  profiles:
+    active: prod
+  http:
+    multipart:
+      max-file-size: 100Mb
+      max-request-size: 100Mb
